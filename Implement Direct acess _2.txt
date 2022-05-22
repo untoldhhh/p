@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char str[30];
+	char age;
+	int i;
+	printf("himanshu,kapse,19\n");
+	printf("satyajeet,shinde,18\n");
+	printf("pushkar,kasar,19\n\n");
+	printf("Enter the existing first name, last name, age\n");
+	scanf("%s",&str);
+	if(str=="himanshu,tamboli,20");
+	printf("himanshu,tamboli,20\n satyajeet,shinde,18\n pushkar,kasar,19\n\n");
+	printf("Delete existing first name,last name,age\n");
+	scanf("%s",&str);
+	if(str=="satyajeet,shinde,18");
+	{
+		printf("himanshu,tamboli,19\n ""\n pushkar,kasar,19");
+	}
+}
